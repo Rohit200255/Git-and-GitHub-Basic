@@ -1,0 +1,36 @@
+ //////////////////////////      STEPS TO COMPLETE TUTORIAL OF GIT AND GitHub.        ///////////////////////////
+
+
+
+1. GIT- It is a local repository to store files and folder
+2. From Git which is a local repository or storage the files is uploaded to REMOTE REPOSITORY.
+3.GITHUB- It is a remote repository.
+
+STEPS TO UPLOAD FILES AND FOLDER FROM WORKSPACE TO LOCAL GIT.
+
+1. Create a local repository by opening Git Terminal and write-
+    i)- git init --> Initialized empty Git repository in C:/Users/hp/Desktop/Rohit/.git/
+
+2. Provide basic info to git repo. (one time.)
+    i)- git config --global user.name "ROHIT DIXIT".
+    ii)- git config --global user.email "rd250729@gmai.com".
+
+
+3. See Git Status of files in the directory by git status
+
+4. All the files will be untracked. So, to update into the Tracked Files or STAGE git type:-
+
+   git add -A  :- (this will add all files and folder)
+   git add -filename :- (this will add file.)
+   git add -folderName :- (this will add folder)
+
+5. Commit or add the files in repo.
+   git commit -m "first commit"
+
+6. LINK your GIT repo to Github.
+
+  i)- Generate your github repo url 
+  ii)- git remote add origin "url"
+
+
+7. PUsh your code into the Hithub Project.
